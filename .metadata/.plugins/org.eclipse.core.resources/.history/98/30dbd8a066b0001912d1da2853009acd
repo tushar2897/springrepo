@@ -1,0 +1,5 @@
+package com.zensar.spring.intruments;
+
+public class Guitar implements Instrument {
+
+}

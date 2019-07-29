@@ -1,0 +1,13 @@
+package com.zensar.spring;
+
+/**
+ * Hello world!
+ *
+ */
+public class ZensarIdol 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

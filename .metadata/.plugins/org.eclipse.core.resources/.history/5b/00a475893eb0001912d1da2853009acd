@@ -1,0 +1,15 @@
+package com.zensar.spring;
+/*Author :Tushar Sadawarte
+ * Creation Date:27-07-19 12:45PM IST
+ * Modified Date:27-07-19 12:45PM IST
+ * Version: 1.0
+ * Copyright:
+ * Description:
+ * 
+ * 
+ * 
+ * 
+ * */
+public interface Greeting {
+	String sayGreet();
+}

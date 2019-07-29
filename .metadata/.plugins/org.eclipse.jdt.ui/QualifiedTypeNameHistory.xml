@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.zensar.spring.performers.Poem"/>
+<fullyQualifiedTypeName name="com.zensar.spring.intruments.Instrument"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ApplicationObjectSupport"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="com.zensar.spring.performers.Performer"/>
+</qualifiedTypeNameHistroy>
