@@ -1,6 +1,7 @@
 package com.zensar.spring.SetterInjection;
 
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.zensar.spring.performers.Performer;
@@ -16,5 +17,9 @@ public class ZenIdolApp
         ApplicationContext ctx=new ClassPathXmlApplicationContext("performers.xml");
         Performer p=ctx.getBean("Tushar S",Performer.class);
         p.perform();
+        
+        ConfigurableApplicationContext cfgCtx=(ConfigurableApplicationContext) ctx;
+        //Shutting down Spring IoC Container
+        cfgCtx.close();
     }
 }
