@@ -33,10 +33,6 @@ public class Product {
 		this.brand = brand;
 		this.price = price;
 	}
-	public Product(int i) {
-		// TODO Auto-generated constructor stub
-		productId=i;
-	}
 	public int getProductId() {
 		return productId;
 	}

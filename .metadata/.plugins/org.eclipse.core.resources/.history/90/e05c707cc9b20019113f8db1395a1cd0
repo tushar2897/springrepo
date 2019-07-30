@@ -36,7 +36,7 @@ public class ProductDaoImpl implements ProductDao {
 
 	public void update(Product product) {
 		// TODO Auto-generated method stub
-		String sql="update product set name=?,brand=?,price=? where productId=?";
+		String sql="update product set name=?,brand=?,price=? where id=?";
 		jt.update(sql, product.getName(),product.getBrand(),product.getPrice(),product.getProductId());
 		System.out.println("Product is updated");
 	}
@@ -50,7 +50,7 @@ public class ProductDaoImpl implements ProductDao {
 
 	public Product getById(int productId) {
 		// TODO Auto-generated method stub
-		String sql="select productId,name,brand,price from product where productId=?";
+		String sql="select productId,name,branch,price from product where productId=?";
 		Product dbProduct=jt.query(sql, new Object[]{productId},new ResultSetExtractor<Product>() {
 
 			public Product extractData(ResultSet rs) throws SQLException, DataAccessException {

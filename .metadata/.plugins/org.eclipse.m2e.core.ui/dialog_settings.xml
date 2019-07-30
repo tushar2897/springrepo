@@ -44,6 +44,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\tushar\git\Spring\SimpleBeanAnno"/>
+			<item value="D:\tushar\git\Spring\SimpleBeanXmlAnno"/>
 			<item value="D:\tushar\git\Spring\BeanLifeCycle"/>
 			<item value="D:\tushar\git\Spring\ConstructorInjection"/>
 			<item value="D:\tushar\git\Spring\SimpleBean"/>
@@ -60,17 +62,13 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="com.zensar.spring"/>
-			<item value="com.zensar.spring.SetterInjection"/>
 		</list>
 		<list key="groupId">
 			<item value="com.zensar.spring"/>
 		</list>
 		<list key="artifactId">
-			<item value="BeanInheritance"/>
-			<item value="BeanLifeCycle"/>
-			<item value="SetterInjection"/>
-			<item value="ConstructorInjection"/>
-			<item value="SimpleBean"/>
+			<item value="SpringJDBC"/>
+			<item value="SimpleBeanAnno"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

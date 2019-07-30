@@ -27,7 +27,7 @@ public class DbOperations
         ProductService service2=ctx.getBean("productServiceImpl", ProductService.class);
         service2.edit(p2);*/
  
-        
+        getById(1005);
         
   }
 }

@@ -36,7 +36,7 @@ public class ProductDaoImpl implements ProductDao {
 
 	public void update(Product product) {
 		// TODO Auto-generated method stub
-		String sql="update product set name=?,brand=?,price=? where productId=?";
+		String sql="update product set name=?,brand=?,price=? where id=?";
 		jt.update(sql, product.getName(),product.getBrand(),product.getPrice(),product.getProductId());
 		System.out.println("Product is updated");
 	}
