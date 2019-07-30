@@ -1,0 +1,12 @@
+package com.zensar.spring;
+
+
+@Component
+public class FestivalGreeting implements Greeting {
+
+	public String sayGreet() {
+		// TODO Auto-generated method stub
+		return "Happy Diwali";
+	}
+
+}

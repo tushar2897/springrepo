@@ -1,0 +1,9 @@
+package com.zensar.daos;
+
+public interface ProductDao {
+	void insert(Product product);
+	void update(Product product);
+	void delete(Product product);
+	Product getById(in productId);
+	List<Product> getAll();
+}

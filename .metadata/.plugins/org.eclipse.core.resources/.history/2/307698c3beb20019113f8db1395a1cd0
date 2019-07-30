@@ -1,0 +1,14 @@
+package snippet;
+
+public class Snippet {
+	Product dbProduct=findProductById(product.getProductId());
+			if(dbProduct!=null){
+				dbProduct.setName(product.getName());
+				dbProduct.setBrand(product.getBrand());
+				dbProduct.setPrice(product.getPrice());
+				dao.update(dbProduct);
+			}
+			else
+				System.out.println("Sorry! Product does not exist.");
+}
+

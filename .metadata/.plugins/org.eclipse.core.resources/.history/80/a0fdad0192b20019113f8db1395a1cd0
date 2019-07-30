@@ -1,0 +1,9 @@
+package com.zensar.spring.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class SpringApp {
+	ApplicationContext ctx= new ClassPathXmlApplicationContext("greetings.xml");
+	
+}

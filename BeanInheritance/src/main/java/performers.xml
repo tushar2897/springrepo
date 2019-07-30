@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans spring-beans.xsd ">
+<bean id="guitar" class="com.zensar.spring.intruments.Guitar" ></bean>
+<bean id="Tushar S" class="com.zensar.spring.performers.Instrumentalist" init-method="tuneInstrument" destroy-method="cleanInstrument">
+	<property name="song" value="Nile Nile Amber Par...."></property>
+	<property name="instrument" ref="guitar"></property>
+</bean>
+<bean id="Growly" parent="Tushar S"></bean>
+
+<bean id="Dean" parent="Growly">
+	<property name="song" value="Neela Aasmaa..."></property>
+</bean>
+<bean id="violin" class="com.zensar.spring.intruments.Violin" ></bean>
+<bean id="Sam" parent="Dean">
+<property name="instrument" ref="violin"></property>
+</bean>
+</beans>

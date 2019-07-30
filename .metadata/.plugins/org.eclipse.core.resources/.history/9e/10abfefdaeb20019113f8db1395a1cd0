@@ -1,0 +1,44 @@
+package com.zensar.daos;
+
+import java.util.List;
+
+import com.zensar.entities.Product;
+
+/* 
+ *Author: Tushar Sadawarte
+ *Creation Date: 30th Jul 2019 03.08PM
+ *Modified Date: 30th Jul 2019 03.08PM
+ *Version: 1.0
+ *Copyright: Zensar Technologies. All rights reserved.
+ *Description:Represents data access object definitions.
+ *It contains CRUD operation methods for entity product.
+ */
+
+public class ProductDaoImpl implements ProductDao {
+
+	public void insert(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void update(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void delete(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Product getById(int productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Product> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
