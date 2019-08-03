@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
-		<item value="true" key="ShowStatusLine"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SimpleBean/src\/main\/java&amp;lt;com.zensar.spring{SpringApp.java[SpringApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=BeanInheritance/src\/main\/java&amp;lt;com.zensar.spring{App.java[App&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SimpleBeanGradle/C:\/Users\/TRG\/.gradle\/caches\/modules-2\/files-2.1\/org.apache.commons\/commons-math3\/3.6.1\/e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf\/commons-math3-3.6.1.jar&amp;lt;org.apache.commons.math3.util(FastMath.class[FastMath&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SimpleBeanXmlAnno/src\/main\/java&amp;lt;com.zensar.spring{GreetingApp.java[GreetingApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SimpleBeanAnno/src\/main\/java&amp;lt;com.zensar.spring{GreetingApp.java[GreetingApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SpringJDBC/src\/main\/java&amp;lt;com.zensar.spring{DbOperations.java[DbOperations&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SimpleBean/src\/main\/java&amp;lt;com.zensar.spring{SpringApp.java[SpringApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=BeanInheritance/src\/main\/java&amp;lt;com.zensar.spring{App.java[App&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SimpleBeanGradle/C:\/Users\/TRG\/.gradle\/caches\/modules-2\/files-2.1\/org.apache.commons\/commons-math3\/3.6.1\/e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf\/commons-math3-3.6.1.jar&amp;lt;org.apache.commons.math3.util(FastMath.class[FastMath&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SimpleBeanXmlAnno/src\/main\/java&amp;lt;com.zensar.spring{GreetingApp.java[GreetingApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SimpleBeanAnno/src\/main\/java&amp;lt;com.zensar.spring{GreetingApp.java[GreetingApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SpringJDBC/src\/main\/java&amp;lt;com.zensar.spring{DbOperations.java[DbOperations&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SpringBootProductRESTService/src\/main\/java&amp;lt;com.zensar{SpringBootProductRestServiceApplication.java[SpringBootProductRestServiceApplication&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
 		<section name="DialogBoundsSettings">
-			<item value="600" key="DIALOG_WIDTH"/>
-			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-			<item value="500" key="DIALOG_HEIGHT"/>
-			<item value="220" key="DIALOG_X_ORIGIN"/>
-			<item value="39" key="DIALOG_Y_ORIGIN"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_X_ORIGIN" value="288"/>
+			<item key="DIALOG_Y_ORIGIN" value="57"/>
 		</section>
 	</section>
 </section>

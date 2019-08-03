@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\tushar\git\Spring\SpringJDBC"/>
 			<item value="D:\tushar\git\Spring\SimpleBeanAnno"/>
 			<item value="D:\tushar\git\Spring\SimpleBeanXmlAnno"/>
 			<item value="D:\tushar\git\Spring\BeanLifeCycle"/>
@@ -61,12 +62,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.zensar.web"/>
 			<item value="com.zensar.spring"/>
 		</list>
 		<list key="groupId">
+			<item value="com.zensar.web"/>
 			<item value="com.zensar.spring"/>
 		</list>
 		<list key="artifactId">
+			<item value="LoginWebApp"/>
+			<item value="SpringHibernate"/>
 			<item value="SpringJDBC"/>
 			<item value="SimpleBeanAnno"/>
 		</list>

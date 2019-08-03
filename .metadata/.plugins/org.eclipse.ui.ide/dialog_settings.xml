@@ -4,11 +4,11 @@
 		<item value="D:\tushar\Day36(29-07-19)\Gradle\myGradleProject"/>
 	</list>
 	<section name="CleanDialogSettings">
-		<item value="500" key="DIALOG_WIDTH"/>
-		<item value="false" key="TOGGLE_SELECTED"/>
-		<item value="378" key="DIALOG_HEIGHT"/>
-		<item value="262" key="DIALOG_X_ORIGIN"/>
-		<item value="112" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_HEIGHT" value="402"/>
+		<item key="DIALOG_X_ORIGIN" value="262"/>
+		<item key="DIALOG_Y_ORIGIN" value="112"/>
 	</section>
 	<section name="WORKBENCH_SETTINGS">
 		<list key="ENABLED_TRANSFERS">
@@ -17,14 +17,14 @@
 	<section name="NewWizardAction">
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
-		<item value="210" key="DIALOG_X_ORIGIN"/>
-		<item value="185" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_X_ORIGIN" value="210"/>
+		<item key="DIALOG_Y_ORIGIN" value="185"/>
 	</section>
 	<section name="SaveAsDialogSettings">
-		<item value="525" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="580" key="DIALOG_HEIGHT"/>
-		<item value="258" key="DIALOG_X_ORIGIN"/>
-		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="580"/>
+		<item key="DIALOG_X_ORIGIN" value="258"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
 	</section>
 </section>
