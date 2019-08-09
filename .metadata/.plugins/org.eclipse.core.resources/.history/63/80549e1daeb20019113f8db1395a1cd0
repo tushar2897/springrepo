@@ -1,5 +1,0 @@
-package com.zensar.daos;
-
-public interface ProductDao {
-
-}

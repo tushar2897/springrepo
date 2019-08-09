@@ -5,6 +5,7 @@ import java.util.List;
 import javax.websocket.server.PathParam;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.zensar.entities.Product;
 import com.zensar.services.business.ProductService;
 
+@CrossOrigin(origins="*" , allowedHeaders="*" )
 @RestController
 @RequestMapping("/products")
 public class ProductResource {
@@ -33,12 +35,22 @@ public class ProductResource {
 	public Product getProduct(@PathVariable("Id")int productId) {
 		return service.findProductById(productId);
 	}
+	/*
+	 * @PostMapping public String createProduct(@RequestParam("id")int
+	 * productId,@RequestParam("name")String name,@RequestParam("brand")String
+	 * brand,@RequestParam("price")float price) { Product product = new
+	 * Product(productId,name,brand,price); service.create(product);
+	 * 
+	 * return "Product " +productId + "created Successfully"; }
+	 */
+	
+	
 	@PostMapping
-	public String createProduct(@RequestParam("id")int productId,@RequestParam("name")String name,@RequestParam("brand")String brand,@RequestParam("price")float price) {
-		Product product = new Product(productId,name,brand,price);
+	public String createProduct(@RequestBody Product product) {
+		
 		service.create(product);
 		
-		return "Product " +productId + "created Successfully";
+		return "Product "  + "created Successfully";
 	}
 	
 	@PutMapping public String editProduct(@RequestBody Product product) {
@@ -48,11 +60,15 @@ public class ProductResource {
 	 return "Product " +product.getProductId() + "edited Successfully"; 
 	}
 	
-	@DeleteMapping
-	public String removeProduct(@RequestBody Product product) {
-		service.remove(product);
-		return "Product " + product.getProductId() + "removed successfully"; 	
+	@DeleteMapping("/delete/{Id}")
+	public Product removeProduct(@PathVariable("Id")int productId) {
+		Product newProduct=new Product(productId);
+		service.remove(newProduct);
+		
+		return service.findProductById(productId);
 	}
+	
+	
 	@GetMapping("/count")
 	public int getProductCount() {
 		return service.findAllProducts().size();
