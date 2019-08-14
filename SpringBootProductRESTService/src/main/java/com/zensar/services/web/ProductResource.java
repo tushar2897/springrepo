@@ -60,12 +60,12 @@ public class ProductResource {
 	 return "Product " +product.getProductId() + "edited Successfully"; 
 	}
 	
-	@DeleteMapping("/delete/{Id}")
-	public Product removeProduct(@PathVariable("Id")int productId) {
-		Product newProduct=new Product(productId);
-		service.remove(newProduct);
+	@DeleteMapping("/{Id}")
+	public String removeProduct(@PathVariable("Id")int productId) {
+		Product newProduct=service.findProductById(productId);
 		
-		return service.findProductById(productId);
+		service.remove(newProduct);
+		return "Product deleted";
 	}
 	
 	
